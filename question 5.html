@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Employee Registration Form</title>
+</head>
+<body>
+
+  <h1>Employee Registration Form</h1>
+  <hr>
+
+  <form>
+
+    <h2>Personal Information</h2>
+
+    <label>First Name:</label><br>
+    <input type="text" name="firstname" placeholder="Enter first name" size="30">
+    <br><br>
+
+    <label>Last Name:</label><br>
+    <input type="text" name="lastname" placeholder="Enter last name" size="30">
+    <br><br>
+
+    <label>Date of Birth:</label><br>
+    <input type="date" name="dob">
+    <br><br>
+
+    <label>Gender:</label><br>
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other
+    <br><br>
+
+    <label>Nationality:</label><br>
+    <input type="text" name="nationality" placeholder="Enter nationality" size="30">
+    <br><br>
+
+    <label>National ID / Passport Number:</label><br>
+    <input type="text" name="idnumber" placeholder="Enter ID or Passport number" size="30">
+    <br><br>
+
+    <label>Marital Status:</label><br>
+    <select name="maritalstatus">
+      <option value="">-- Select --</option>
+      <option value="single">Single</option>
+      <option value="married">Married</option>
+      <option value="divorced">Divorced</option>
+      <option value="widowed">Widowed</option>
+    </select>
+    <br><br>
+
+    <hr>
+    <h2>Contact Information</h2>
+
+    <label>Email Address:</label><br>
+    <input type="email" name="email" placeholder="Enter email address" size="30">
+    <br><br>
+
+    <label>Phone Number:</label><br>
+    <input type="tel" name="phone" placeholder="Enter phone number" size="30">
+    <br><br>
+
+    <label>Physical Address:</label><br>
+    <textarea name="address" rows="3" cols="35" placeholder="Enter physical address"></textarea>
+    <br><br>
+
+    <label>City:</label><br>
+    <input type="text" name="city" placeholder="Enter city" size="30">
+    <br><br>
+
+    <label>Country:</label><br>
+    <select name="country">
+      <option value="">-- Select Country --</option>
+      <option value="tanzania">Tanzania</option>
+      <option value="kenya">Kenya</option>
+      <option value="uganda">Uganda</option>
+      <option value="rwanda">Rwanda</option>
+      <option value="ethiopia">Ethiopia</option>
+      <option value="other">Other</option>
+    </select>
+    <br><br>
+
+    <hr>
+    <h2>Employment Details</h2>
+
+    <label>Employee ID:</label><br>
+    <input type="text" name="employeeid" placeholder="Enter employee ID" size="30">
+    <br><br>
+
+    <label>Job Title:</label><br>
+    <input type="text" name="jobtitle" placeholder="Enter job title" size="30">
+    <br><br>
+
+    <label>Department:</label><br>
+    <select name="department">
+      <option value="">-- Select Department --</option>
+      <option value="hr">Human Resources</option>
+      <option value="it">Information Technology</option>
+      <option value="finance">Finance</option>
+      <option value="marketing">Marketing</option>
+      <option value="operations">Operations</option>
+      <option value="legal">Legal</option>
+      <option value="admin">Administration</option>
+    </select>
+    <br><br>
+
+    <label>Employment Type:</label><br>
+    <input type="radio" name="emptype" value="fulltime"> Full Time
+    <input type="radio" name="emptype" value="parttime"> Part Time
+    <input type="radio" name="emptype" value="contract"> Contract
+    <input type="radio" name="emptype" value="intern"> Intern
+    <br><br>
+
+    <label>Date of Joining:</label><br>
+    <input type="date" name="joiningdate">
+    <br><br>
+
+    <label>Basic Salary (TZS):</label><br>
+    <input type="number" name="salary" placeholder="Enter basic salary" size="30">
+    <br><br>
+
+    <label>Work Location:</label><br>
+    <select name="worklocation">
+      <option value="">-- Select Location --</option>
+      <option value="dodoma">Dodoma</option>
+      <option value="daressalaam">Dar es Salaam</option>
+      <option value="mwanza">Mwanza</option>
+      <option value="arusha">Arusha</option>
+      <option value="remote">Remote</option>
+    </select>
+    <br><br>
+
+    <hr>
+    <h2>Qualifications</h2>
+
+    <label>Highest Education Level:</label><br>
+    <select name="education">
+      <option value="">-- Select --</option>
+      <option value="primary">Primary School</option>
+      <option value="secondary">Secondary School</option>
+      <option value="diploma">Diploma</option>
+      <option value="bachelor">Bachelor Degree</option>
+      <option value="master">Master Degree</option>
+      <option value="phd">PhD</option>
+    </select>
+    <br><br>
+
+    <label>Skills:</label><br>
+    <input type="checkbox" name="skill" value="communication"> Communication<br>
+    <input type="checkbox" name="skill" value="teamwork"> Teamwork<br>
+    <input type="checkbox" name="skill" value="leadership"> Leadership<br>
+    <input type="checkbox" name="skill" value="ict"> ICT / Computer Skills<br>
+    <input type="checkbox" name="skill" value="problemsolving"> Problem Solving<br>
+    <input type="checkbox" name="skill" value="accounting"> Accounting<br>
+    <br>
+
+    <label>Years of Experience:</label><br>
+    <select name="experience">
+      <option value="">-- Select --</option>
+      <option value="0">No Experience</option>
+      <option value="1">1 Year</option>
+      <option value="2">2 Years</option>
+      <option value="3">3 Years</option>
+      <option value="5">4 - 5 Years</option>
+      <option value="10">6 - 10 Years</option>
+      <option value="10+">More than 10 Years</option>
+    </select>
+    <br><br>
+
+    <hr>
+    <h2>Emergency Contact</h2>
+
+    <label>Contact Name:</label><br>
+    <input type="text" name="emergencyname" placeholder="Enter full name" size="30">
+    <br><br>
+
+    <label>Relationship:</label><br>
+    <input type="text" name="relationship" placeholder="e.g. Spouse, Parent, Sibling" size="30">
+    <br><br>
+
+    <label>Contact Phone:</label><br>
+    <input type="tel" name="emergencyphone" placeholder="Enter phone number" size="30">
+    <br><br>
+
+    <hr>
+    <h2>Account Setup</h2>
+
+    <label>Username:</label><br>
+    <input type="text" name="username" placeholder="Enter username" size="30">
+    <br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password" placeholder="Enter password" size="30">
+    <br><br>
+
+    <label>Confirm Password:</label><br>
+    <input type="password" name="confirmpassword" placeholder="Confirm password" size="30">
+    <br><br>
+
+    <label>Upload Profile Photo:</label><br>
+    <input type="file" name="photo" accept="image/*">
+    <br><br>
+
+    <label>Upload CV / Resume:</label><br>
+    <input type="file" name="cv" accept=".pdf,.doc,.docx">
+    <br><br>
+
+    <hr>
+    <h2>Declaration</h2>
+
+    <input type="checkbox" name="agree" value="yes">
+    I confirm that all the information provided above is true and correct to the best of my knowledge.
+    <br><br>
+
+    <input type="submit" value="Register Employee">
+    &nbsp;&nbsp;
+    <input type="reset" value="Clear Form">
+
+  </form>
+
+</body>
+</html>
